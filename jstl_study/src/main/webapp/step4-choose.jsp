@@ -1,5 +1,5 @@
-<%@ page import="model.PersonVO" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="model.PersonVO" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -17,6 +17,6 @@
 	
 	<!-- EL 방식으로 name, age를 출력 -->
 	이름 : ${person.name} <br>
-	나이 : ${person.age } <br>
+	나이 : ${person.age} <br>
 </body>
 </html>
