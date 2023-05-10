@@ -9,6 +9,17 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	
+	th, td {
+		border: 1px solid black;
+		padding: 5px 10px;
+		text-align: center;
+	}
+</style>
 <body>
 	<%
 		// PersonVo 객체를 이용 list에 여러명 추가
@@ -24,13 +35,13 @@
 		request.setAttribute("personList", list);
 	%>
 	
-	<table border="1px solid black" style="border-collapse: collapse; text-align:center;"	>
+	<table>
 		<thead>
 			<tr>
-				<td>번호</td>
-				<td>이름</td>
-				<td>나이</td>
-				<td>연령대</td>
+				<th>번호</th>
+				<th>이름</th>
+				<th>나이</th>
+				<th>연령대</th>
 			</tr>
 		</thead>
 		<tbody>
